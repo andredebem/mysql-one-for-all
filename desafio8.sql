@@ -5,8 +5,8 @@ AFTER DELETE ON SpotifyClone.users
 FOR EACH ROW
 BEGIN
 
-DELETE FROM SpotifyClone.follows_list l WHERE OLD.user_id = l.user_id;
-DELETE FROM SpotifyClone.history_of_plays h WHERE OLD.user_id = h.user_id;
+DELETE FROM SpotifyClone.follows_list WHERE OLD.user_id = SpotifyClone.follows_list.user_id;
+DELETE FROM SpotifyClone.history_of_plays WHERE OLD.user_id = SpotifyClone.history_of_plays.user_id;
 
 END $$
 
