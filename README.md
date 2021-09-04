@@ -105,7 +105,7 @@ Havia uma série de desafios com diferentes níveis de complexidade que deviam s
 OU
 
 1. Acesse o mesmo link deste repositório com `1s` depois de `github` e antes de `.com`
-  * `https://github1s.com/andredebem/mysql-one-for-all.git`
+  * `https://github1s.com/andredebem/mysql-one-for-all`
 
 2. Agora você pode abrir cada arquivo `.sql` presente **na pasta raiz do projeto**:
   * desafio1.sql, desafio2.sql, desafio3.sql, desafio4.sql, ..., desafioN.sql
